@@ -1,0 +1,8 @@
+spring.application.name: config-server
+server.port: 8888
+
+spring.cloud.config.server.git.uri: https://github.com/ShaoPingL/SpringcloudConfig.git
+spring.cloud.config.server.git.searchPaths: '{profile}' #配置仓库路径 –这里写成’{profile}’是为了能让后面的服务在不同环境下动态的去获得相对应的目录下的配置环境
+spring.cloud.config.label: master
+spring.cloud.config.server.git.username:
+spring.cloud.config.server.git.password:
