@@ -7,3 +7,6 @@ server:
 spring:
   application:
     name: service-ribbon
+#SERVICE-HI:
+#  ribbon:
+#    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule

@@ -1,0 +1,14 @@
+server:
+  port: 8761
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  server: ##开发时候用  关闭client不够提示
+    enable-self-preservation: false
+spring:
+  application:
+    name: eurka-dev-server
