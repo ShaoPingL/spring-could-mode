@@ -6,3 +6,13 @@ spring.cloud.config.server.git.searchPaths: '{profile}' #配置仓库路径 –�
 spring.cloud.config.label: master
 spring.cloud.config.server.git.username:
 spring.cloud.config.server.git.password:
+#spring.cloud.config.server.git.basedir: E:\BaiduNetdiskDownload\Spring Cloud微服务实战\SpringCloud_Sell\config-repo     #本地仓库地址
+
+
+spring.rabbitmq.host: 192.168.99.100
+spring.rabbitmq.port: 5672
+spring.rabbitmq.username: guest
+spring.rabbitmq.password: guest
+management.endpoints.web.exposure.include: "*"
+
+eureka.client.serviceUrl.defaultZone: http://localhost:8761/eureka/
